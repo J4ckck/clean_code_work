@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--A linha 1 não é uma tag e sim uma declaração para informar ao navegador qual versão do html estamos usando no arquivo
+DOCTYPE: Document Type Declaration-->
+<html lang="pt-br">
+<!--"html": Hiper Text Marked Language ou linguagem de marcação de hipertexto, é a tag raiz do documento-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+
+    <script src="./assets/js/script.index.js"> </script>
+
+    <title>Clear Code</title>
+
+    <link rel="shortcut icon" href="./assets/favicon.png" type:"image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.index.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+    <!-- link para o css do menu mobile; link para o css do google fonts -->
+</head>
+
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Clear Code</h1>
+    </header>
+
+    <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+        menu
+    </span>
+
+    <menu id="itens">
+        <ul>
+            <li><A href="index.html"> Conceito Geral</A></li>
+            <li><A href="page2.html"> Exemplos </A></li>
+        </ul>
+    </menu>
+
+    <main>
+        <article>
+            <!-- <strong></strong> negrito -->
+            <!-- <em></em> itálico -->
+            <!-- <u></u> sublinhado -->
+            <!-- <s></s> tachado -->
+            <h2>
+                O que é Clean Code?
+            </h2>
+            <p>
+                Clean code ou código limpo é uma série de boas práticas
+            </p>
+        </article>
+    </main>
+
+    <footer>
+        <p>Feito por Jack 2024</p>
+    </footer>
+</body>
+
+</html>
