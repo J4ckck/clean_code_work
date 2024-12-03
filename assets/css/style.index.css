@@ -53,6 +53,7 @@ header>h1 {
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: #743455  0px 0px 10px;
+    margin-left: 5px;
 
 }
 
@@ -111,6 +112,7 @@ main {
     margin-top: 5px;
     padding: 30px;
     text-align: justify;
+    
 
 }
 
@@ -182,4 +184,63 @@ footer {
     padding: 10px;
     text-align: center;
     text-shadow: #743455  0px 0px 15px;
+}
+
+
+@media screen and (min-width: 992px) {
+    body {
+        background-color: #b3755a;
+    }
+
+    #burguer {
+        display: none;
+        text-align: center;
+    }
+
+    menu {
+        display: block;
+        width: 90vw;
+        margin: auto;
+        background-color: #3f203800;
+
+
+    }
+
+    menu>ul>li {
+        display: inline-block;
+        background-color: #21203f00;
+
+    }
+
+    main {
+        width: 90vw;
+        margin: auto;
+        border-radius: 20px;
+    }
+
+    article>h2 {
+        padding-bottom: 17px;
+        width: 90vw;
+        margin: auto;
+    }
+
+    article>p {
+        text-align: justify;
+        margin-bottom: 17px;
+        text-indent: 17px;
+    }
+
+    footer {
+        width: 90vw;
+        margin: auto;
+    }
+
+    img#mobile {
+        display: none;
+    }
+
+    img#pc {
+        display: block;
+    }
+
 }
